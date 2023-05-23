@@ -91,9 +91,12 @@ hr {
   padding: 0 110px;
 }
 
+a {
+  font-family: 'Crismon Pro', serif;
+}
+
 .lounge-menu a, .second-lounge-menu a {
   color: #e52421;
-  font-family: 'Crismon Pro', serif;
   font-size: 13px;
 }
 
@@ -101,11 +104,33 @@ hr {
   width: 180px;
 }
 
+.lounge-insight {
+  margin: 40px 0;
+  padding: 0 35px;
+}
+
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase;
+  padding: 25px 0 0;
+}
+
+.lounge-insight p {
+  line-height: 1.75;
+  font-size: 12px;
+  margin: 30px 0;
+}
+
+.lounge-exhibitors, .lounge-summer {
+  background-color: #e52421;
+  color: #ffffff;
+}
+
+.lounge-actress, .lounge-info {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 main h3 {
