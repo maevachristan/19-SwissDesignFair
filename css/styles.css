@@ -69,6 +69,38 @@ p {
   margin: 0;
 }
 
+hr {
+  color: #000000;
+}
+
+.first-clip {
+  width: 225px;
+}
+
+.lounge-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding: 0 60px;
+}
+
+.second-lounge-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 0 110px;
+}
+
+.lounge-menu a, .second-lounge-menu a {
+  color: #e52421;
+  font-family: 'Crismon Pro', serif;
+  font-size: 13px;
+}
+
+.second-clip {
+  width: 180px;
+}
+
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
