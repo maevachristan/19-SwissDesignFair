@@ -36,6 +36,39 @@ header h3 {
   text-align: center;
 }
 
+.press-articles {
+  display: flex;
+  margin: 25px 0;
+  padding: 0 10px;
+}
+
+.interior-article {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7px;
+  padding: 0 2px;
+}
+
+h4 {
+  color: #e52421;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.interior-article h4 {
+  margin: 5px 0;
+}
+
+p {
+  font-family: 'Crismon Pro', serif;
+}
+
+.interior-article p {
+  font-size: 12px;
+  margin: 0;
+}
+
 h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 25px;
@@ -44,12 +77,5 @@ h2 {
 }
 
 main h3 {
-  text-transform: uppercase;
-}
-
-h4 {
-  color: #e52421;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 10px;
   text-transform: uppercase;
 }
